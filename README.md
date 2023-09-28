@@ -18,17 +18,24 @@ Using the climate_starter.ipynb, the codes were constructed to output the requir
 
 1.1 Precipitation Analysis:
 1. Find the most recent date in the dataset.
-- latest date is 23-07-2023
+- latest date is 23-08-2023
 
 2-6. Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
 - As displayed in the required histogram
 
-7. Summary statistics are given fo the precipitation data.
+7. Summary statistics are derived for given fo the precipitation data and displayed as per requirement.
 
 1.3 Station Analysis
-1. Total number of stations
-2. Most-active stations = 
+1. Total number of stations = 9
+2. Most-active stations = USC00519281 with 2772 recordings.
 3. Histogram of the Temperature for the last 12 months
 
 Part 2: Design Your Climate App
-Using flask to design the Climate App as required.
+
+Using flask to design the Climate App as required for the following routes.
+
+        "/api/v1.0/precipitation",
+        "/api/v1.0/stations",
+        "/api/v1.0/tobs",
+        "/api/v1.0/<start>",
+        "/api/v1.0/<start>/<end>"
