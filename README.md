@@ -3,11 +3,11 @@
 
 All the codes are taken from lecture notes and ChatGPT.
 
-The GitHub repositry folder is organized thus way:
+The GitHub repositry folder is organized this way:
 1. SursfUp folder
-    - Resources folder - contain the hawaii.sqlit, and 2 csv files.
-    - cimiate_starter_Final.ipynb - this is the final version of the Jupyter Notebook codes
-    - climate_starte.ypynb - this was the original started codes given for the Challenge
+    - Resources folder - contain the hawaii.sqlite, and 2 csv files.
+    - climate_starter_Final.ipynb - this is the final version of the Jupyter Notebook codes for grading
+    - climate_starte.ypynb - this was the original starter codes given for the Challenge 10
     
     
     
@@ -18,7 +18,7 @@ Using the climate_starter.ipynb, the codes were constructed to output the requir
 
 1.1 Precipitation Analysis:
 1. Find the most recent date in the dataset.
-- latest date is 23-08-2023
+- latest date is 23-08-2017
 
 2-6. Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
 - As displayed in the required histogram
@@ -29,6 +29,7 @@ Using the climate_starter.ipynb, the codes were constructed to output the requir
 1. Total number of stations = 9
 2. Most-active stations = USC00519281 with 2772 recordings.
 3. Histogram of the Temperature for the last 12 months
+
 
 Part 2: Design Your Climate App
 
